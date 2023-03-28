@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Default"
+        android:id="@+id/def"
+        android:icon="@drawable/baseline_message_24"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:title="share"
+        android:id="@+id/share"
+        android:icon="@drawable/baseline_share_24"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/privacy" android:title="Privacy Policy"/>
+    <item android:id="@+id/disclaimer" android:title="Disclaimer"/>
+    <item android:id="@+id/tandc" android:title="Terms and condition"/>
+    <item android:id="@+id/others" android:title="Other Apps"/>
+</menu>
